@@ -1,0 +1,124 @@
+:root{
+    
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Source sans pro';
+    color: #242E52;
+  
+}
+.testimonial {
+   height: auto;
+   display: block;
+   justify-content: space-around;
+   text-align: left;
+   
+}
+
+.testimonial .title{
+   margin-left: 3.5rem;
+}
+
+.testimonial .title h1{
+    font-size: 2.5rem;
+    
+}
+
+.card-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 5rem auto;
+    
+}
+.card-wrap{
+    margin: 2rem;
+}
+
+.card{
+ display: block;   
+ width: 300px;
+ height: 250px;
+ background: #ebebeb;
+ align-self: center;
+ padding: 1rem;
+ margin: 2rem;
+ border-radius: 4px;
+ box-shadow: #252525;
+}
+.card-wrapper .card .img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 3.8rem;
+    top: -6.25rem;
+    box-shadow: #252525;
+}
+
+.card-wrapper .card .caption{
+    position: relative;
+    top: -6.25rem;
+    left: 0rem;
+
+}
+
+.card-wrapper .card .content{
+    position: relative;
+    top: -6.25rem;
+    left: 0rem;
+    right: 1rem;
+}
+
+.card-wrapper .card .img img{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+.testimonial .btn {
+    margin-top: -100px;
+    margin-left: 150px;
+}
+   .testimonial .btn a{
+        text-decoration: none;
+        color: #ffffff;
+        background: #F2613C;
+        display: inline-block;
+	   font-weight: 500;
+	   padding: 0.5em 2em;
+	   border-radius: 40px;
+	   margin:1em 0;
+	   transition: 0.3s;
+    }
+
+    @media (min-width:820px) {
+        .card-wrapper{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        
+        .testimonial .btn {   
+            margin-left: 400px;
+        }
+        .testimonial .title{
+            margin-left: 350px;
+        }
+    }
+
+
+@media (min-width:1040px){
+ .card-wrapper{
+     display: flex;
+     flex-direction: row;
+ }
+
+ .testimonial .title{
+     text-align: center;
+ }
+ .testimonial .btn{
+     width: inherit;
+     margin-left: 680px;
+ }
+}
+

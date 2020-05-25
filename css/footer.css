@@ -1,0 +1,77 @@
+footer{
+    display: block;
+    background: #1E1E26;
+    padding: 30px;
+    
+}
+
+footer .card{
+    background:none;
+    
+    border-radius: 30px;
+    height: auto;
+   
+}
+footer a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem;
+    color: #ffffff;
+}
+footer .logo{
+    display: flex;
+    margin-left: 25px;
+}
+
+footer .logo img{
+    width: 24px;
+    height: 24px;
+}
+
+.company-name{
+    position: relative;
+    top: -2.15rem;
+    font-size: 1.1rem;
+    margin-left:5px;
+}
+
+footer .icon{
+    display: flex;
+    
+}
+
+footer .icon img{
+    margin: 5px;
+    width: 24px;
+}
+
+
+form input{
+    padding:10px;
+    border-radius: 20px;
+    border: #ffffff;
+}
+
+#submit{
+    width: 60px;
+    border-radius: 20px;
+    color:#ffffff;
+    background: #F2613C;
+    border: #F2613C;
+}
+footer p{
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+
+@media (min-width:1040px){
+    footer{
+        display:flex;
+        flex-direction: row;
+      
+        
+    }
+}

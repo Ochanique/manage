@@ -1,0 +1,41 @@
+.get-started{
+    display: block;
+    background-image: url("../images/getstarted.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.get-started h1{
+    font-size: 2.5rem;
+}
+
+.get-started .btn a{
+    text-decoration: none;
+    color: #F2613C;
+    background:#ffffff;
+    display: inline-block;
+   font-weight: 500;
+   padding: 1em 2em;
+   border-radius: 40px;
+   margin:0.8em 0;
+   transition: 0.3s;
+}
+
+@media (min-width:1040px) {
+    .get-started{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .get-started .caption{
+        margin-left: -150px;
+    }
+
+   .get-started .btn{
+       position: relative;
+       top: 20px;
+       right: -100px;
+   }
+}
